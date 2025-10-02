@@ -598,7 +598,7 @@ function downloadImage() {
     
     // Generar nombre del archivo
     const randomNumber = Math.floor(Math.random() * 10000).toString().padStart(4, '0');
-    const fileName = `SERGIO_VARGAS_GESTION_FUL_USFX_NACER_${randomNumber}.png`;
+    const fileName = `USFX_NASA_SPACE_APPS_FUL_${randomNumber}.png`;
     
     // Descargar
     finalCanvas.toBlob(function(blob) {
@@ -734,3 +734,4 @@ function removeScrollStopListeners() {
     scrollStopListeners = [];
 
 }
+
