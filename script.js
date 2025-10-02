@@ -491,7 +491,7 @@ const lineHeight = isMobile ? 25 * scaleFactor : 15 * scaleFactor;
     
     // Etiqueta "DANZA:"
     ctx.font = `700 ${24 * scaleFactor}px Poppins, Arial`; // ✅ FUENTE POPPINS BOLD
-    ctx.fillStyle = '#FFD700'; // ✅ COLOR AMARILLO
+    ctx.fillStyle = '#D8FF00'; // ✅ COLOR AMARILLO
 
     ctx.fillText('ROL:', textX, textY); // ✅ SOLO TEXTO PLANO
     textY += lineHeight;
@@ -732,4 +732,5 @@ function removeScrollStopListeners() {
         window.removeEventListener(event, listener);
     });
     scrollStopListeners = [];
+
 }
