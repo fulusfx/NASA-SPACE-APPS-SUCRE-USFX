@@ -616,7 +616,7 @@ function downloadImage() {
         
         // ✅ MENSAJE DESPUÉS DE DESCARGA
         setTimeout(() => {
-            alert('✅ ¡Descarga completada!\n\n📋 Llena el siguiente formulario para completar el proceso de inscripción como bailarín de la USFX.\n\n🎭 ¡Gracias por participar!');
+            alert('✅ ¡Descarga completada!\n\n📋 Llena el siguiente formulario para completar el proceso de REGISTRO USFX.\n\n🪐🌍 ¡Gracias por participar!');
             
             setTimeout(() => {
                 window.open('https://docs.google.com/forms/d/e/1FAIpQLSdJPTV5vFaa8i_zkjhhbJ5vkSkJ9FsDWYsVCNdYW9lLWqFMSw/viewform?usp=dialog', '_blank');
@@ -734,4 +734,5 @@ function removeScrollStopListeners() {
     scrollStopListeners = [];
 
 }
+
 
